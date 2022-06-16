@@ -12,13 +12,10 @@ function hasTargetSum(array, target) {
 
 
 /* 
+Write the Big O time complexity of your function here
+*/ // Runtime: O(n^2)
+/* 
 Add your pseudocode here
- create an object to keep track of numbers we've already seen
-  iterate through each number in the array
-    for the current num, identify a complement that adds to the target (comp = target - num)
-    check if any key on our object is the complement
-      if so, return true
-      otherwise, add that number to the object
 */
 
 /*
